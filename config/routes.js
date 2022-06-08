@@ -15,4 +15,8 @@ module.exports.routes = {
 "GET /companies": "CompanyController.find",
 "GET /companies/:id": "CompanyController.findOne",
 
+"POST /rbt": "RbtController.create",
+"GET /rbt": "RbtController.find",
+
+
 };

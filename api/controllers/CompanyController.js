@@ -6,7 +6,9 @@ module.exports ={
 
 async create(req,res){
     try{
+        
 let params= req.allParams();
+
 
 if(!params.name){
     return res.badRequest({err: "the name is required"})}
